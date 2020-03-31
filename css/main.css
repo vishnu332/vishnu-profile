@@ -17,7 +17,7 @@
     text-align: center;
     color: #fff;
     text-shadow: 0 0 20px #ff005b;
-    animation: animate 20s linear infinite;
+    
 }
 
 
@@ -39,3 +39,6 @@ body{
     margin: 0em;
 }
 
+h2{
+    text-decoration: underline;
+}
