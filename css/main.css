@@ -1,7 +1,6 @@
 .site-header{
     background-color: #6f0404;
     color: whitesmoke;
-    height: 100vh;
     font-family: monospace;
     display: flex;
     flex-direction: column;
@@ -11,7 +10,17 @@
 
 .site-header-content{
     margin: 10px;
+    
 }
+
+.myname{
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 20px #ff005b;
+    animation: animate 20s linear infinite;
+}
+
+
 
 .link{
     color: whitesmoke;
@@ -19,7 +28,7 @@
 }
 
 .profile-pic{
-    border-radius: 50%;
+    border-radius: 90%;
     height: 200px;
     width: 200px;
     box-shadow: #020000 5px 5px 5px;
