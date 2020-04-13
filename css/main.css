@@ -10,7 +10,7 @@ button.tgl{
   background-color: transparent;
   color:#ed5107;
   padding: 10;
-  border-color:  #ed5107 ;
+  border-color:  #ed5107;
   border-radius: 10%;
 }
 
@@ -35,7 +35,7 @@ button.tgl{
 
 
 .link{
-    color: whitesmoke;
+    color: rgb(76, 76, 231);
     
 }
 
@@ -65,7 +65,7 @@ h3{
 
 button{
     background-color: transparent;
-    padding: 20px;
+    padding: 0;
     border-radius: 30% ;
     border-color: #ed5107;
     height: 150px;
@@ -76,15 +76,12 @@ button{
     margin-top: 100;
     color: #ed5107;
     cursor: pointer;
-    
-    
-    
+        
 }
 
 button::before , button::after{
     position: absolute;
     left: 0;
-    
     background-color: #ed5107;
     width: 100%;
     height: 100%;
