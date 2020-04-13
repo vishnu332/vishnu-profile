@@ -3,27 +3,65 @@
         <title>Vishnu Pradeep</title>
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <meta name="theme-color" content="#6f0404"/>
+        <meta http-equiv="refresh" content="">
         <link href="css/main.css" rel="stylesheet">
-        <link href="animate/cssanimate" rel="stylesheet">
+        <style>
+            html {scroll-behavior: smooth;}
+            body{
+            background:  #550404;
+            color: whitesmoke;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column; 
+        }
+            
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        </style>
+        <script>
+            function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+        </script>
     </head>
+
     <body>
-        <header class="site-header">
+        
+            <button class="tgl" onclick="myFunction()">Dark Mode</button>
             <img class="profile-pic" src="https://media-exp1.licdn.com/dms/image/C5103AQFZWcigHsTw8w/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=p8DYrqoB0uZxuaY9Pz3e4dms-jB7Vy_r3qVaDwz8I_8">
             <div class="site-header-content">
                 
                 <h1 class="myname"> Hi, I am Vishnu. </h1>
-                <h2> Projects</h2>
-                <h3>1. Train collision <br><br>2. Deduplication of encrypted data in cloud </h3>
-                <h2>Technical Skills</h2>
-                <h3>> Manual testing</h3>
-                <h3>> Automation testing: Selenium </h3>
-                <h3>> Java </h3>
-                <h3>> Database:MySql</h3>
+                <button onclick="window.location.href='#tech';">Technical Skills</button><br>
+                <button onclick="window.location.href='#project';">Projects</button><br>
+                <button onclick="window.location.href='#activity';">Activities</button><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-                <h2>Activities</h2>
-                <h3> Hosted website </h3>
-                <h3> Volunteering for NGO </h3> 
-                <h3> Interested in trying out new Recipes </h3>
+                <h2 id="tech">Technical Skills</h2>
+                
+                <h3>- Manual testing </h3>
+                <h3>- Automation testing: Selenium </h3>
+                <h3>- Java </h3>
+                <h3>- Database:MySql</h3>
+                
+
+                
+                <h2 id="project"> Projects</h2>
+                
+                <h3>1. Train collision</h3>
+                <h3>2. Deduplication of encrypted data in cloud </h3><br><br><br><br><br>
+                
+                
+
+                <h2 id="activity">Activities</h2>
+
+                <h3>- Hosted website </h3>
+                <h3>- Volunteering for NGO </h3> 
+                <h3>- Interested in trying out new Recipes </h3>
                 <br><br>
                 <br><br><br><br>
                 <h3><a class="link" href="https://www.linkedin.com/in/vishnu-pradeep-a9541b14b/">LinkedIn</a> </h3>
