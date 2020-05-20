@@ -1,6 +1,12 @@
+body{
+    background:  #253381;
+    color: black;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column; 
+}
 
 button.tgl{
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   height: 50;
@@ -11,18 +17,21 @@ button.tgl{
   color:#ed5107;
   padding: 10;
   border-color:  #ed5107;
-  border-radius: 10%;
+  border-radius: 10%;  
 }
+
 
 .tgl:hover{
     color: #fff;
-    transition: all 0.5s ease-out;
+    transition: all 1s ease-out;
     background-color: #ed5107;
        
 }
+
 .site-header-content{
     margin: 10px;
     
+    justify-content: center;
 }
 
 .myname{
@@ -32,30 +41,36 @@ button.tgl{
     
 }
 
-
-
 .link{
     color: rgb(76, 76, 231);
     
 }
 
 .profile-pic{
+    display: flex;
+    flex-direction: column;
     border-radius: 90%;
     height: 180px;
     width: 180px;
     box-shadow: #020000 5px 5px 5px;
-    align-self: center;
+    
+    
     margin-top: 0px;
 
 }
 
-
+h1{
+    display: flex;
+    flex-direction: column;
+    
+}
 
 h2{
     text-decoration: underline;
     font-size: 50;
     padding-top: 150px;
     margin-left: 20;
+    
 }
 
 h3{
@@ -64,9 +79,14 @@ h3{
 }
 
 button{
+    display: flex;
+    flex-direction: column;
     background-color: transparent;
     padding: 0;
     border-radius: 30% ;
+    justify-content: center;
+    align-items: center;
+    
     border-color: #ed5107;
     height: 150px;
     width: 150px;
@@ -93,4 +113,16 @@ button:hover{
     transition: all 0.5s ease-out;
     background-color: #ed5107;
        
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        width: 100%;
+    }
+
+    .profile-pic{
+       
+        align-self: center;
+            
+    }
 }
