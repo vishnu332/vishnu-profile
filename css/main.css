@@ -128,8 +128,8 @@ button:hover{
         margin-left: 5%;
     }
 
-    .h2,
-    .h3 {
-        font-size: 10px;
+    .content {
+        font-size: 5px;
+        
     }
 }
