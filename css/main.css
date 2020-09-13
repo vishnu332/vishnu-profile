@@ -129,7 +129,8 @@ button:hover{
     }
 
     .site-header-content {
-        font-size: 5px;
+       
+        font-size-adjust: initial;
         
     }
 }
