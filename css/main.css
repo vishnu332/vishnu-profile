@@ -1,7 +1,7 @@
 body{
-    background:  #000033;
+    background:  #9FA8DA;
     color: black;
-    font-family: monospace;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column; 
 }
@@ -15,7 +15,7 @@ button.tgl{
  
   align-self: flex-end;
   background-color: transparent;
-  color:#ed5107;
+  color:black;
   padding: 10;
   border-color:  white;
   border-radius: 10%;  
@@ -81,9 +81,7 @@ h3{
     margin-left: 50;
 }
 
-.content{
-    color: #FDFEFE;
-}
+
 
 button{
     
@@ -93,14 +91,14 @@ button{
     
     margin-left: 570;
     
-    border-color: #920e0e;
+    border-color: white;
     border-style: solid;
     height: 150px;
     width: 150px;
     
     margin-top: 100;
-   
-    color: #ed5107;
+    font-size: 15px;
+    color: #3300CC;
     cursor: pointer;
         
 }
@@ -118,7 +116,7 @@ button:hover{
     color: #fff;
     transition: all 0.5s ease-out;
     background-color: #3949AB;
-    font-size: 15px;
+    font-size: 18px;
        
 }
 
