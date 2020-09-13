@@ -1,6 +1,5 @@
 body{
     background:  #9FA8DA;
-    color: black;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column; 
@@ -15,7 +14,7 @@ button.tgl{
  
   align-self: flex-end;
   background-color: transparent;
-  color:black;
+  color:white;
   padding: 10;
   border-color:  white;
   border-radius: 10%;  
