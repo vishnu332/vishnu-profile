@@ -116,14 +116,3 @@ button:hover{
        
 }
 
-@media all and (max-width: 500px) {
-    body{
-        width: 100%;
-    }
-
-    button {
-        align-self: center;
-       
-    }
-
-}
