@@ -127,4 +127,8 @@ button:hover{
         width: 90%;
         margin-left: 5%;
     }
+
+    .content {
+        font-size: 10px;
+    }
 }
