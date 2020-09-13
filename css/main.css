@@ -37,6 +37,7 @@ button.tgl{
 
 .myname{
     text-align: center;
+    align-self: center;
     color: #fff;
     text-shadow: 0px 0px 15px #FDFEFE;
     
@@ -55,7 +56,8 @@ button.tgl{
     width: 180px;
     box-shadow: #020000 5px 5px 5px;
     justify-content: center;
-    margin-left: 570;
+    align-self: center;
+    
     margin-top: 0px;
 
 }
@@ -80,12 +82,13 @@ h3{
 }
 
 button{
-    display: flex;
-    flex-direction: column;
+    
     background-color: transparent;
     padding: 0;
     border-radius: 20% ;
-    justify-content: center;
+    
+    align-content: center;
+    align-self: center;
     align-items: center;
     
     border-color: #920e0e;
@@ -94,7 +97,7 @@ button{
     width: 150px;
     
     margin-top: 100;
-    margin-left: 570;
+   
     color: #ed5107;
     cursor: pointer;
         
@@ -117,3 +120,11 @@ button:hover{
        
 }
 
+@media (max-width: 768px) {
+    .btn1,
+    .btn2,
+    .btn3 {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
