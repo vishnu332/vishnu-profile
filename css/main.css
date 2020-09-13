@@ -12,7 +12,8 @@ button.tgl{
   height: 50;
   width: 150;
   margin-top: 0;
-  margin-left: 1150;
+ 
+  align-self: flex-end;
   background-color: transparent;
   color:#ed5107;
   padding: 10;
