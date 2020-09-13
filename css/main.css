@@ -81,15 +81,16 @@ h3{
     margin-left: 50;
 }
 
+.content{
+    color: #FDFEFE;
+}
+
 button{
     
     background-color: transparent;
     
     border-radius: 20% ;
     
-    align-content: center;
-    align-self: center;
-    align-items: center;
     margin-left: 570;
     
     border-color: #920e0e;
