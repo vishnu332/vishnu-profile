@@ -53,8 +53,8 @@ button.tgl{
     height: 180px;
     width: 180px;
     box-shadow: #020000 5px 5px 5px;
-    
-    
+    justify-content: center;
+    margin-left: 570;
     margin-top: 0px;
 
 }
@@ -83,17 +83,17 @@ button{
     flex-direction: column;
     background-color: transparent;
     padding: 0;
-    border-radius: 30% ;
+    border-radius: 20% ;
     justify-content: center;
     align-items: center;
     
-    border-color: #ed5107;
+    border-color: #920e0e;
+    border-style: solid;
     height: 150px;
     width: 150px;
-    position: relative;
-    top: 50%;
-    left: 43%;
+    
     margin-top: 100;
+    margin-left: 570;
     color: #ed5107;
     cursor: pointer;
         
@@ -112,12 +112,18 @@ button:hover{
     color: #fff;
     transition: all 0.5s ease-out;
     background-color: #ed5107;
+    font-size: 15px;
        
 }
 
-@media only screen and (min-width: 768px) {
+@media all and (max-width: 500px) {
     body{
         width: 100%;
+    }
+
+    button {
+        align-self: center;
+       
     }
 
     .profile-pic{
