@@ -1,5 +1,5 @@
 body{
-    background:  #253381;
+    background:  #000033;
     color: black;
     font-family: monospace;
     display: flex;
@@ -16,7 +16,7 @@ button.tgl{
   background-color: transparent;
   color:#ed5107;
   padding: 10;
-  border-color:  #ed5107;
+  border-color:  white;
   border-radius: 10%;  
 }
 
@@ -24,7 +24,7 @@ button.tgl{
 .tgl:hover{
     color: #fff;
     transition: all 1s ease-out;
-    background-color: #ed5107;
+    background-color: black;
        
 }
 
@@ -37,7 +37,7 @@ button.tgl{
 .myname{
     text-align: center;
     color: #fff;
-    text-shadow: 0 0 20px #ff005b;
+    text-shadow: 0px 0px 15px #FDFEFE;
     
 }
 
@@ -111,7 +111,7 @@ button::before , button::after{
 button:hover{
     color: #fff;
     transition: all 0.5s ease-out;
-    background-color: #ed5107;
+    background-color: #3949AB;
     font-size: 15px;
        
 }
